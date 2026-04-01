@@ -306,6 +306,44 @@
             animation: milestoneGlow 3s infinite;
         }
 
+        .journey-btn-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .journey-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, var(--nebula-purple), var(--nebula-pink));
+            border: none;
+            border-radius: 30px;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .journey-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(247, 37, 133, 0.5);
+        }
+
+        .journey-experience {
+            margin: 2rem 0;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+        }
+
+        .experience-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5rem;
+            color: var(--comet-cyan);
+            margin-bottom: 1rem;
+        }
+
         @keyframes milestoneGlow {
             0%, 100% { box-shadow: 0 0 40px rgba(247, 37, 133, 0.3); }
             50% { box-shadow: 0 0 60px rgba(247, 37, 133, 0.5), 0 0 80px rgba(123, 44, 191, 0.3); }
@@ -376,27 +414,17 @@
             </div>
             <div class="journey-block">
                 <p class="journey-text">
-                    Hello, I am <strong>Raju Jonnada</strong>, an Information Technology graduate from <strong>Gayatri Vidya Parishad College of Engineering</strong>, Visakhapatnam.
+                    Hello, I am <strong>Raju Jonnada</strong> from <strong>Gayatri Vidya Parishad College of Engineering</strong>, Visakhapatnam in the field of Information Technology.
                 </p>
                 <p class="journey-text">
-                    After completing my graduation in 2025, I faced a difficult phase in my career. I attended multiple interviews but couldn't clear them. This made me question my skills and direction. I tried joining different coaching institutes in Vijayawada and Hyderabad, hoping to improve, but I realized they were not giving me the practical knowledge I needed. I was fully confused about my next step.
+                    After completing graduation in 2025, I have faced difficult phase in my career. In campus placements I have attended multiple interviews but I not cleared any of them. This made me clueless what i am going wrong. After campus placements done i am thinking what to do next at that time i am searching different coaching institutes in Vijayawada and Hyderabad who gives best learning with placement opportunity, but i realized they were not giving practical knowledge.
                 </p>
                 <p class="journey-text">
-                    At that point, my friend <strong>Pavan Kumar Varanasi</strong> suggested <strong>AI Karyashala</strong>. Joining it became a turning point in my life. In AI Karyashala, I didn't just learn coding—I started understanding how to think like a problem solver. I built my foundation in algorithms and learned how to approach problems step by step instead of memorizing solutions.
+                    At that time, my friend <strong>Pavan Kumar Varanasi</strong> suggested me to join <strong>AI Karyashala</strong>. Joining in AI Karyashala became a turning point of my career. In AI Karyashala, I have learnt everything from scratch like writing on paper Algorithms to AI Agents.
                 </p>
+
                 <p class="journey-text">
-                    One important experience was attending <strong>APDTS</strong>, where I saw how large and impactful the AI field really is. It changed my mindset from just getting a job to building something meaningful with technology. I also got an overview of how AI is evolving in the real world when my mentor shared insights from an <strong>AI Summit in Delhi</strong>. This helped me understand the bigger picture of AI and where the industry is heading.
-                </p>
-                <div class="journey-images">
-                    <img src="images/apdts1.png" alt="APDTS Event" class="journey-img">
-                    <img src="images/apdts2.webp" alt="APDTS Event" class="journey-img">
-                </div>
-                <p class="journey-text">
-                    I also got an overview of how AI is evolving in the real world when my mentor shared insights from an <strong>AI Summit in Delhi</strong>. This helped me understand the bigger picture of AI and where the industry is heading.
-                </p>
-                
-                <p class="journey-text">
-                    I started applying what I learned through small projects. One of my early projects was creating a <strong>Python script to generate ID cards with QR codes</strong> along with my friend <strong>Rama Krishna</strong>. This was the first time I felt confident that I could build something useful on my own.
+                    I have started doing what I have learned and experienced through small projects. One of my first project was creating a <strong>Python script to generate ID cards with QR codes</strong> along with my friend <strong>Siva Rama Krishna Malla</strong>. At that time i felt confident what i have done and doing.
                 </p>
                 <div class="journey-images">
                     <img src="images/AIK073930_front.png" alt="ID Card Generator Project" class="journey-img">
@@ -407,8 +435,17 @@
                         </a>
                     </div>
                 </div>
+
                 <p class="journey-text">
-                    Another major step in my journey was teaching. I participated in a <strong>2-day bootcamp at KIET College</strong>, where I explained topics like Version Control and Linux to around <strong>60–80 students</strong>. Standing in front of that many people and teaching gave me a lot of confidence and helped me improve my communication skills.
+                    One of the best experience was attending <strong>APDTS</strong>, Where I have learned about How AI is evolving in multiple sectors. At that time I have thought what we can really do with AI. It changed my entire mindset about AI. I also got an overview of how AI is evolving in the real world when my mentor <strong>Rohini Kumar Barla</strong> shared his experience from an <strong>AI Summit in Delhi</strong>. This helped me understand the big picture of AI.
+                </p>
+                <div class="journey-images">
+                    <img src="images/apdts1.png" alt="APDTS Event" class="journey-img">
+                    <img src="images/apdts2.webp" alt="APDTS Event" class="journey-img">
+                </div>
+            
+                <p class="journey-text">
+                    Another major important step is teaching. I participated in a <strong>2-day bootcamp at KIET College</strong>, where I explained topics like Version Control and Linux to around <strong>60–80 students</strong>. Standing in front of that many people and teaching gave me a lot of confidence and helped me improve my communication skills.
                 </p>
 
                 <div class="journey-images">
@@ -418,7 +455,11 @@
                 </div>
 
                 <p class="journey-text">
-                    To challenge myself further, I participated in a <strong>24-hour buildathon</strong> conducted by <strong>AI for Vizag</strong>. Under time pressure, I built a project and integrated <strong>text-to-speech using Sarvam.ai</strong>. This experience taught me how to quickly learn, adapt, and apply new technologies.
+                    I also got an overview of how AI is evolving in the real world when my mentor shared insights from an <strong>AI Summit in Delhi</strong>. This helped me understand the bigger picture of AI and where the industry is heading.
+                </p>
+
+                <p class="journey-text">
+                    After that I have participated in a <strong>24-hour buildathon</strong> conducted by <strong>AI for Vizag</strong>. <I></I> build a project <strong>AI Banking Data Assistant</strong> and integrated speech-to-text in multiple language like Telugu, Hindi and English using <strong>sarvam.ai</strong> and also deployed project in render which we are explored in AI Karyashala.
                 </p>
                 <div class="journey-images">
                     <video src="images/ai-banking-demo.mp4" alt="AI Banking Demo" class="journey-img" controls></video>
@@ -429,22 +470,27 @@
                     </div>
                 </div>
                 <p class="journey-text">
-                    One student came from <strong>Andhra University</strong> and told about his project related to model training using <strong>YOLOv8</strong> for bangle detection. My curiosity then led me into computer vision. I built a <strong>water bottle detection project</strong> using the YOLO model, where I learned how models are trained and how object detection works in real-world scenarios.
+                    One student came from <strong>Andhra University</strong> and told about his project related to <strong>model training using YOLOv8 for bangle detection</strong>. It motivated me to build this type of project so i have done <strong>water bottle detection</strong> project using the YOLO model, where I learned how models are trained and how object detection works in real-world scenarios.
                 </p>
                 <div class="journey-images">
                     <img src="images/output.png" alt="Water Bottles Detection Project" class="journey-img">
                     <img src="images/plastic.jpeg" alt="Plastic Bottle Detection" class="journey-img">
                 </div>
                 <p class="journey-text">
-                    At the same time, I explored modern AI concepts like <strong>LLMs, RAG, and AI Agents</strong>. I also worked with tools like <strong>Ollama</strong> and <strong>OpenClaw</strong>. This helped me understand how AI applications are built and run in real environments.
+                    At the same time, I explored modern AI concepts like <strong>Large language Models</strong>, <strong>Retrieval Augmented Generation</strong> and <strong>AI Agents</strong>. I also worked with tools like <strong>Ollama</strong> and <strong>OpenClaw</strong>. This helped me understand how AI applications are built.
                 </p>
                 <p class="journey-text">
-                    Over time, my mindset completely changed. I moved from being confused about my career to becoming confident in building AI-based solutions. I started focusing not just on coding, but on understanding systems, workflows, and real-world applications.
+                    After Course ending my mindset fully changed from confusion to confident on building AI-based applications.
                 </p>
+                <div class="journey-btn-container">
+                    <a href="index.html#projects" class="journey-btn">View All Projects →</a>
+                </div>
+               
+                
                 <div class="journey-milestone">
                     <span class="milestone-icon">🎉</span>
                     <p class="milestone-text">
-                        Finally, all these efforts led to an important milestone—I secured a <strong>2-month internship with placement</strong> at <strong>Optficial.ai</strong> as a <strong>Graduate Engineer Trainee</strong>.
+                        Finally, I secured <strong>2-month internship with placement</strong> at <strong>Optficail.ai</strong> as a <strong>Graduate Engineer Trainee</strong>.
                     </p>
                 </div>
             </div>

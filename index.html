@@ -604,6 +604,24 @@
             letter-spacing: 2px;
         }
 
+        .ongoing-badge {
+            display: inline-block;
+            background: var(--nebula-pink);
+            color: white;
+            font-size: 0.7rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            margin-left: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
         .timeline-title {
             font-family: 'Orbitron', sans-serif;
             font-size: 1.3rem;
@@ -1031,9 +1049,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Optficail Labs <span class="ongoing-badge">On Going</span></div>
+                        <h3 class="timeline-title">Graduate Engineer Trainee</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact">
